@@ -570,7 +570,7 @@ example:
   hosts:
     centos-7-example:
       virt_infra_state: shutdown
-      virt_infra_timezone: "Australia/Melbourne"
+      virt_infra_timezone: "Europe/Prague"
       ansible_python_interpreter: /usr/bin/python
       virt_infra_networks:
         - name: "br0"
@@ -584,7 +584,7 @@ example:
           size: "100"
           bus: "nvme"
     centos-8-example:
-      virt_infra_timezone: "Australia/Melbourne"
+      virt_infra_timezone: "Europe/Prague"
       ansible_python_interpreter: /usr/libexec/platform-python
     opensuse-15-example:
       virt_infra_distro: opensuse
